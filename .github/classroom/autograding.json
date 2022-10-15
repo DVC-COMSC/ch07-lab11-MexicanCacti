@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "T1",
+      "setup": "",
+      "run": "python main.py",
+      "input": "",
+      "output": "[\\w,\\W]*60[\\w,\\W]*\\n[\\w,\\W]*110[\\w,\\W]*\\n[\\w,\\W]*160[\\w,\\W]*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
